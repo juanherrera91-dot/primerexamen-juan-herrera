@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MANACO - Calzado</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.5;
+    }
+
+    header, nav, main, section, article, footer {
+      padding: 1rem;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #f4f4f4;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1rem;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: black;
+    }
+
+    main {
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    section ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1.5rem;
+      padding: 0;
+      margin: 2rem 0;
+    }
+
+    article {
+      border: 1px solid #ccc;
+      padding: 1rem;
+      max-width: 200px;
+    }
+
+    article img {
+      width: 100%;
+      height: auto;
+      background: #eee;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #f4f4f4;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      section ul {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  
+  <header>
+    <h1>MANACO</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Servicios</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Calzado que impulsa tu paso</h2>
+
+    <section>
+      <h2>Productos</h2>
+      <ul>
+        <li>
+          <article>
+            <h3>Producto 1</h3>
+            <img src="producto1.jpg" alt="Producto 1">
+            <p>bs. 00.00</p>
+            <button>Comprar</button>
+          </article>
+        </li>
+        <li>
+          <article>
+            <h3>Producto 2</h3>
+            <img src="producto2.jpg" alt="Producto 2">
+            <p>bs. 00.00</p>
+            <button>Comprar</button>
+          </article>
+        </li>
+        <li>
+          <article>
+            <h3>Producto 3</h3>
+            <img src="producto3.jpg" alt="Producto 3">
+            <p>bs. 00.00</p>
+            <button>Comprar</button>
+          </article>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>Copyright 2025 MANACO</p>
+  </footer>
+
+</body>
+</html>

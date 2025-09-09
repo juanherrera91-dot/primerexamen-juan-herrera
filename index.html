@@ -3,57 +3,51 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MANACO - Calzado</title>
+
+  <!-- Título único -->
+  <title>MANACO - Calzado cómodo y moderno</title>
+
+  <!-- Meta description (150-160 caracteres) -->
+  <meta name="description" content="Descubre la colección de calzado MANACO: cómodo, moderno y duradero. Encuentra tu estilo con nuestros zapatos de alta calidad.">
+
+  <!-- Open Graph mínimas -->
+  <meta property="og:title" content="MANACO - Calzado cómodo y moderno">
+  <meta property="og:description" content="Descubre la colección de calzado MANACO: cómodo, moderno y duradero. Encuentra tu estilo con nuestros zapatos de alta calidad.">
+  <meta property="og:image" content="https://tudominio.com/images">
+  <meta property="og:type" content="website">
+
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
-  <!-- Enlace para saltar directamente al contenido -->
-  <a href="#contenido" class="skip-link">CONTENIDO PRINCIPAL</a>
 
   <header>
-    <h1>MANACO</h1>
-    <!-- aria-label para que los lectores de pantalla entiendan mejor -->
-    <nav aria-label="Menú principal">
+    <h1>MANACO</h1> <!-- Único H1 -->
+    <nav>
       <ul>
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Servicios</a></li>
-        <li><a href="#">Contacto</a></li>
+        <li><a href="#productos">Productos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
       </ul>
     </nav>
   </header>
 
-  <main id="contenido">
-    <h2>Calzado que impulsa tu paso</h2>
-
-    <section aria-labelledby="titulo-productos">
-      <h2 id="titulo-productos">Productos</h2>
-      <ul>
-        <li>
-          <article>
-            <h3>Zapato Deportivo</h3>
-            <img src="img/producto1.png" alt="Zapato deportivo color negro con suela blanca">
-            <p>Bs. 250.00</p>
-            <button>Comprar</button>
-          </article>
-        </li>
-        <li>
-          <article>
-            <h3>Sandalia Casual</h3>
-            <img src="img/producto2.jpg" alt="Sandalia de cuero marrón para uso casual">
-            <p>Bs. 180.00</p>
-            <button>Comprar</button>
-          </article>
-        </li>
-        <li>
-          <article>
-            <h3>Botín de Cuero</h3>
-            <img src="img/producto3.jpg" alt="Botín de cuero café con cordones">
-            <p>Bs. 320.00</p>
-            <button>Comprar</button>
-          </article>
-        </li>
-      </ul>
+  <main>
+    <section id="productos">
+      <h2>Nuestros Productos</h2> <!-- H2 coherente -->
+      <article>
+        <h3>Zapato Deportivo</h3>
+        <p>Calzado deportivo cómodo, ideal para entrenamientos y uso diario.</p>
+        <img src="images/deportivo.png" alt="Zapato deportivo MANACO">
+      </article>
+      <article>
+        <h3>Zapato Casual</h3>
+        <p>Estilo casual y moderno para todas las ocasiones.</p>
+        <img src="images/casual.jpg" alt="Zapato casual MANACO">
+      </article>
+      <article>
+        <h3>Zapato Formal</h3>
+        <p>Elegante y duradero, perfecto para eventos formales.</p>
+        <img src="images/formal.jpg" alt="Zapato formal MANACO">
+      </article>
     </section>
   </main>
 
